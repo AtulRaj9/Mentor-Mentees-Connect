@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Graduation Cap -->
+  <!-- Cap base (the square top) -->
+  <rect x="25" y="35" width="50" height="12" fill="none" stroke="#3b82f6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" rx="2"/>
+  <!-- Cap brim (the curved bottom) -->
+  <path d="M15 47 Q50 52 85 47" fill="none" stroke="#3b82f6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Tassel string -->
+  <line x1="50" y1="35" x2="65" y2="60" stroke="#3b82f6" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Tassel ball -->
+  <circle cx="65" cy="60" r="3" fill="#3b82f6"/>
+</svg>

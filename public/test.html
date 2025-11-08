@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Server Test - DES MentorConnect</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+        h1 { margin: 0 0 20px 0; }
+        .status {
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.2);
+        }
+        .success { background: rgba(76, 175, 80, 0.3); }
+        .error { background: rgba(244, 67, 54, 0.3); }
+        code {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✅ Server is Working!</h1>
+        <div class="status success">
+            <p><strong>If you can see this page, your server is running correctly!</strong></p>
+            <p>The issue is likely with React rendering, not the server.</p>
+        </div>
+        
+        <div class="status">
+            <h3>Next Steps:</h3>
+            <ol style="text-align: left; display: inline-block;">
+                <li>Go to: <code>http://localhost:8080</code> (not this test page)</li>
+                <li>Press <code>F12</code> to open Developer Tools</li>
+                <li>Check the <strong>Console</strong> tab for errors</li>
+                <li>Check the <strong>Network</strong> tab for failed requests</li>
+                <li>Try a hard refresh: <code>Ctrl + Shift + R</code></li>
+            </ol>
+        </div>
+
+        <div class="status">
+            <h3>Common Issues:</h3>
+            <ul style="text-align: left; display: inline-block;">
+                <li><strong>Blank page:</strong> Check browser console (F12) for JavaScript errors</li>
+                <li><strong>Module errors:</strong> Run <code>npm install</code> again</li>
+                <li><strong>Cached files:</strong> Clear browser cache (Ctrl+Shift+Delete)</li>
+            </ul>
+        </div>
+
+        <p style="margin-top: 30px;">
+            <a href="/" style="color: white; text-decoration: underline;">← Go to Main App</a>
+        </p>
+    </div>
+</body>
+</html>
+
